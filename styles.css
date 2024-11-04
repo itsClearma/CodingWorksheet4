@@ -7,8 +7,6 @@ body{
 header {
     background-color: hotpink;
     padding: 10px 0px 10px 0px;
-    
-    
 }
 
 h1{
@@ -87,7 +85,7 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    flex-wrap: wrap;
 }
 
 /* section 3 youtube video */
@@ -95,7 +93,11 @@ li{
 .section-three {
     background-color: lightcoral;
     height: 800px;
-
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 iframe { 
